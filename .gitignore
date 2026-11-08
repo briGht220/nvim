@@ -1,0 +1,30 @@
+# --- Windows OS 메타 파일 ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- 임시 파일 및 백업 ---
+*.swp
+*.swo
+*~
+.netrwhist
+
+# --- 세션 파일 ---
+Session.vim
+*.session.vim
+
+# --- 실행 취소(Undo) 및 백업 디렉토리 ---
+undo/
+backup/
+swap/
+.undo/
+.backup/
+
+# --- Windows 에디터 및 IDE 메타 파일 ---
+.vscode/
+.idea/
+
+# --- LSP 및 로컬 설정 캐시 ---
+.luarc.json
+.neoconf.json
