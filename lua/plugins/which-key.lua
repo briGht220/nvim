@@ -7,9 +7,13 @@ return {
     -- refer to the configuration section below
     preset = "helix",
     spec = {
-        {"<leader>c", group = "Clipboard", icon = },
+        {"<leader>c", group = "Windows Clipboard"},
         {"<leader>e", group = "Edit File"},
-        {"<leader>f", group = "fff Finder"},
+        {"<leader>g", group = "Git"},
+        {"<leader>t", group = "Tab"},
+        {"<leader>a", group = "Claude Code"},
+        {"<leader>f", group = "Telescope"},
+        {"<leader>l", group = "LSP"},
     },
   },
   keys = {

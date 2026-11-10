@@ -17,11 +17,11 @@ vim.opt.ruler = true
 -- set undofile  
 vim.opt.undofile = true
 
--- search option
-vim.opt.incsearch = false
-
 -- set font 
-vim.opt.guifont = "CaskaydiaMono Nerd Font"
+vim.opt.guifont = "D2CodingLigature Nerd Font"
 
--- color scheme 
-vim.cmd("colorscheme default")
+-- cursor line highlight  
+vim.opt.cursorline = true
+
+-- no end line  
+vim.opt.fixendofline = false  
